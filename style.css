@@ -14,7 +14,8 @@
 .blinkit-logo-delivery,
 .blinlit-nav-search,
 .blinkit-login-cart,
-.blinlit-nav-logo ,.blinlit-nav-delivery{
+.blinlit-nav-logo,
+.blinlit-nav-delivery {
     align-items: center;
 }
 
@@ -45,14 +46,14 @@
     height: 32px;
 }
 
-.blinkit-logo-delivery-devidor{
+.blinkit-logo-delivery-devidor {
     width: 1px;
     display: flex;
     background-color: rgb(242, 242, 242);
     height: 100%;
 }
 
-.blinlit-nav-delivery{
+.blinlit-nav-delivery {
     width: 320px;
     height: 86px;
     justify-content: center;
@@ -79,15 +80,14 @@
     display: inline-flex;
 }
 
-.blinlit-nav-delivery-arrow-main, .blinlit-nav-delivery-arrow{
-   
+.blinlit-nav-delivery-arrow-main,
+.blinlit-nav-delivery-arrow {
     width: 15px;
     height: 10px;
-   margin-left: 1px;
+    margin-left: 1px;
 }
 
-.blinlit-nav-search{
-   
+.blinlit-nav-search {
     width: 320px;
     /* height: 86px; */
     justify-content: start;
@@ -98,12 +98,12 @@
     background-color: inherit;
     color: #666;
     font-size: 12px;
-    font-family: 'Okra', Helvetica;
+    font-family: "Okra", Helvetica;
     flex: 1 1 0%;
     padding: 20px 24px 20px 0px;
     cursor: text;
     margin: auto;
-   
+
     padding: 12px;
     display: flex;
     -webkit-box-align: center;
@@ -112,20 +112,18 @@
     background: rgb(255, 255, 255);
     border: 1px solid rgb(221, 221, 221);
     border-radius: 8px;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
     /* box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px; */
-   
-   
-} 
+}
 
-.blinlit-nav-search-icon-main{
+.blinlit-nav-search-icon-main {
     width: 20px;
 }
-.blinlit-nav-search-bar{
+.blinlit-nav-search-bar {
     width: 100%;
 }
 
-.blinlit-nav-search-bar-main{
+.blinlit-nav-search-bar-main {
     /* width: 500px; */
     width: 100%;
     height: 25px;
@@ -134,12 +132,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    background-color: #F8F8F8;
-    color: rgb(0, 0, 0)
-    
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
 }
 
-.blinkit-login-cart{
+.blinkit-login-cart {
     display: flex;
     width: 345px;
     -webkit-box-pack: center;
@@ -150,21 +147,21 @@
     gap: 5px;
     color: #666;
     font-size: 12px;
-    font-family: 'Okra', Helvetica;
+    font-family: "Okra", Helvetica;
 }
 
-.blinlit-nav-button-login{
+.blinlit-nav-button-login {
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
     height: 86px;
-    
+
     display: flex;
     cursor: pointer;
     transition: background-color 0.5s ease 0s;
 }
-.blinlit-nav-button-login{
+.blinlit-nav-button-login {
     width: 162px;
     -webkit-box-pack: center;
     justify-content: center;
@@ -173,13 +170,45 @@
     height: 86px;
     display: flex;
     cursor: pointer;
-    transition: background-color 0.5s ease 0s;
+    background-color: #ffff;
+    /* transition: background-color 0.5s ease 0s; */
 }
-.blinlit-nav-button-login-main{
+.blinlit-nav-button-login-main {
     font-size: 18px;
     font-weight: 400;
     /* color: rgb(54, 54, 54); */
     font-family: Okra-Regular;
     /* transition: font-size 0.5s ease 0s; */
+    border: none;
+    background-color: #fff;
+}
+
+.blinlit-nav-button-cart {
+    margin-right: 32px;
+    margin-left: 12px;
+
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 86px;
+    display: flex;
+}
+
+.blinlit-nav-button-cart-main {
+    background-color: rgb(12, 131, 31);
+    border-radius: 8px;
+    cursor: pointer;
+    height: 52px;
+    width: 112px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Okra-Bold;
+    font-weight: 800;
     border: none;
 }
