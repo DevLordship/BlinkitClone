@@ -1,0 +1,44 @@
+.blinlit-nav,
+.blinkit-logo-delivery,
+.blinlit-nav-search,
+.blinkit-login-cart,
+.blinlit-nav-delivery,
+.blinlit-nav-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.blinkit-logo-delivery,
+.blinlit-nav-search,
+.blinkit-login-cart,
+.blinlit-nav-logo {
+    align-items: center;
+}
+
+
+
+.blinlit-nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    color: #666;
+    font-size: 12px;
+    font-family: "Okra", Helvetica;
+    line-height: 1.15;
+    background-color: white;
+    height: 86px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    flex-wrap: nowrap;
+}
+.blinlit-nav-logo{
+    height: 86px;
+    width: 178px;
+    justify-content: center;
+}
+.blinlit-nav-logo-main{
+    width: 115px;
+    height: 32px;
+}
