@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 .blinlit-nav,
 .blinkit-logo-delivery,
 .blinlit-nav-search,
@@ -117,9 +121,13 @@
 .blinlit-nav-search-icon-main{
     width: 20px;
 }
+.blinlit-nav-search-bar{
+    width: 100%;
+}
 
 .blinlit-nav-search-bar-main{
-    width: 500px;
+    /* width: 500px; */
+    width: 100%;
     height: 25px;
     flex: 1 1 0%;
     border: none;
@@ -128,6 +136,7 @@
     line-height: 18px;
     background-color: #F8F8F8;
     color: rgb(0, 0, 0)
+    
 }
 
 .blinkit-login-cart{
@@ -154,4 +163,23 @@
     display: flex;
     cursor: pointer;
     transition: background-color 0.5s ease 0s;
+}
+.blinlit-nav-button-login{
+    width: 162px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 86px;
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s ease 0s;
+}
+.blinlit-nav-button-login-main{
+    font-size: 18px;
+    font-weight: 400;
+    /* color: rgb(54, 54, 54); */
+    font-family: Okra-Regular;
+    /* transition: font-size 0.5s ease 0s; */
+    border: none;
 }
