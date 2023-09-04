@@ -81,3 +81,77 @@
     height: 10px;
    margin-left: 1px;
 }
+
+.blinlit-nav-search{
+   
+    width: 320px;
+    /* height: 86px; */
+    justify-content: start;
+    -webkit-box-align: center;
+    align-items: start;
+    /* flex: 1 1 0%; */
+    position: relative;
+    background-color: inherit;
+    color: #666;
+    font-size: 12px;
+    font-family: 'Okra', Helvetica;
+    flex: 1 1 0%;
+    padding: 20px 24px 20px 0px;
+    cursor: text;
+    margin: auto;
+   
+    padding: 12px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 8px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    background-color: #F8F8F8;
+    /* box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px; */
+   
+   
+} 
+
+.blinlit-nav-search-icon-main{
+    width: 20px;
+}
+
+.blinlit-nav-search-bar-main{
+    width: 500px;
+    height: 25px;
+    flex: 1 1 0%;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #F8F8F8;
+    color: rgb(0, 0, 0)
+}
+
+.blinkit-login-cart{
+    display: flex;
+    width: 345px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    top: 0px;
+    right: 0px;
+    padding: 0px;
+    gap: 5px;
+    color: #666;
+    font-size: 12px;
+    font-family: 'Okra', Helvetica;
+}
+
+.blinlit-nav-button-login{
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 86px;
+    
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s ease 0s;
+}
