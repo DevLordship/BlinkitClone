@@ -2021,9 +2021,8 @@ h6 {
     }
 }
 
-/* .wrapping-all {
-    display: flex !important;
-    /* width: 80vw !important; */
-    /* justify-content: center !important;
-    flex-direction: column !important;
- */ */
+.wrapping-all {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+}
+
