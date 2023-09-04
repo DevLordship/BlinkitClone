@@ -183,19 +183,18 @@
     background-color: #fff;
 }
 
-.blinlit-nav-button-cart {
+/* .blinlit-nav-button-cart {
     margin-right: 32px;
     margin-left: 12px;
-
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
     height: 86px;
     display: flex;
-}
+} */
 
-.blinlit-nav-button-cart-main {
+.blinlit-nav-button-cart {
     background-color: rgb(12, 131, 31);
     border-radius: 8px;
     cursor: pointer;
@@ -211,4 +210,10 @@
     font-family: Okra-Bold;
     font-weight: 800;
     border: none;
+}
+
+.blinlit-nav-button-cart-main {
+    background-color: rgb(12, 131, 31);
+    border: none;
+    color: rgb(255, 255, 255);
 }
